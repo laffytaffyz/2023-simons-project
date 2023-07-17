@@ -1,1 +1,1 @@
-# summer-mini-project-2023
+# Summer Mini Project 2023
