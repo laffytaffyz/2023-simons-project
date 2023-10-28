@@ -1,4 +1,12 @@
-# 2023 Simons Mini Group Project
-## Tiffany Zhang, Victoria Tan, James M. Lattimer
+# Mass Estimations of LIGO Black Hole–Neutron Star Merger Candidates
+### Tiffany Zhang<sup>1</sup>, Victoria Tan<sup>2</sup>, James M. Lattimer<sup>3</sup>
+#### <sup>1</sup>Great Neck South High School, <sup>2</sup>Jericho High School, <sup>3</sup>Stony Brook University
 
+**Abstract** <br>
+Gravitational waves (GW) from compact binary mergers bring new informative measurements of neutron stars (NS) and black holes, such as chirp mass, which can estimate these objects' masses and be measured to high precision. With the merger type probabilities (released more regularly than chirp mass by GW observatory LIGO), Lattimer (2019) devised a method using chirp mass and mass ratio that successfully determined the signal S190426c's chirp and component masses. However, with the recent LIGO update of the merger type mass definitions, an updated mass estimation method was sought. Eight possible CBM definitions were analyzed, and one definition (upper NS and lower gap object mass bound of 2.25 M<sub>☉</sub> and overall lower mass bound of 1 M<sub>☉</sub>) yielded mass estimations for only three out of the four signals of interest (S230529ay, S230528a, and S230518h). However, when exploring the use of symmetric mass instead of mass ratio, no mass estimations were produced for S190426c and the last signal of interest S230627c, so this method is model-dependent and can only produce mass estimations for some signals. After the next LIGO release, this new method can be validated and expanded to more signals.<br><br>
 [View poster here](https://docs.google.com/presentation/d/1gz1yccseOo-9F_YTE6uVR0CvieHblrGQUawo324e8kg/edit?usp=sharing)
+
+## File Descriptions
+Data generation notebooks (for [chirp mass and mass ratio](/Data%20Generation%20-%20chirp%20mass%20and%20q.ipynb) and for [chirp mass and symmetric mass](/Data%20Generation%20-%20chirp%20mass%20and%20eta.ipynb)): generates theoretical merger probabilities for varying combinations of chirp mass, mass ratio/symmetric mass, and error for mass ratio/symmetric mass. <br>
+Plot generation notebooks (for [chirp mass and mass ratio](/Plot%20Generation%20-%20chirp%20mass%20and%20q.ipynb) and for [chirp mass and symmetric mass](/Plot%20Generation%20-%20chirp%20mass%20and%20eta.ipynb)): creates contour plots and estimated chirp mass/component mass vs. error in mass ratio/symmetric mass plots for the inputted signal's merger probabilities
+Chirp mass and mass ratio generated data
