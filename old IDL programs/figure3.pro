@@ -1,7 +1,4 @@
-; figure3.pro        by: tiffany zhang
-; creates plot for each specific e_q value with bands of specified BNS, BHNS, gap, and BBH merger probabilities
 ; note: mch and q estimates and the confidence interval have not been added yet
-;
 
 pro figure3
 
