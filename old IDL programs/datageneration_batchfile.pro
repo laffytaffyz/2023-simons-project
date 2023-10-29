@@ -1,7 +1,3 @@
-; homework 07/11/2023 (batch file)        by tiffany
-; batch file version of homework07112023.pro to run in cmd
-; 
-
 ;pro homework07112023ver2batchfile
 
 n=501 ; size of grid
