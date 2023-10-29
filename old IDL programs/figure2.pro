@@ -1,9 +1,3 @@
-; figure2.pro        by: tiffany zhang
-; creates plot for each specified e_q value with contours of various BNS, BHNS, and BBH probabilities 
-; 
-; key to csv file
-;
-
 pro figure2
 
 ;; saves as postscript file
